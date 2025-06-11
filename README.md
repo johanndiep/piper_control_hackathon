@@ -1,6 +1,6 @@
 # Piper Arm Controller
 
-A simple and interactive Python interface for controlling the **Piper robotic arm** via the `piper_control` API.
+A simple and interactive Python interface for controlling the **Piper robotic arm** via the `piper_control` API. Build on the work of [Reimagine Robotics](https://github.com/Reimagine-Robotics/piper_control//). 
 
 This controller allows you to:
 - Set joint positions absolutely or relatively
