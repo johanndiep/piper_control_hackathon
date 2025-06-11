@@ -7,8 +7,6 @@ This controller allows you to:
 - Open/close the gripper with precise control
 - Interact with the robot from the terminal using simple text commands
 
----
-
 ## 🚀 Installation
 
 ### 1. Install CAN utilities (required for communicating with the Piper arm)
@@ -21,8 +19,6 @@ sudo apt install can-utils
 pip install piper_control
 ```
 
----
-
 ## 🧠 Overview
 
 This controller script provides the following functionality:
@@ -32,16 +28,12 @@ This controller script provides the following functionality:
 - Open or close the **gripper**
 - Run an **interactive terminal interface** for manual control
 
----
-
 ## 🧩 Features
 
 - Absolute and relative joint control  
 - Degrees and radians support  
 - Interactive gripper control (open, close, or partial)  
 - Current state feedback after every command  
-
----
 
 ## 🛠 Usage
 
@@ -53,8 +45,6 @@ Save the code from `PiperArmController` into a file, e.g. `piper_arm_controller.
 ```bash
 python3 piper_arm_controller.py
 ```
-
----
 
 ## 🎮 Interactive Terminal Commands
 
@@ -93,8 +83,6 @@ Type `g` and press enter to enter gripper mode:
 ### Quit:
 Type `q` or `quit` or `exit` at any time to leave the controller.
 
----
-
 ## 📍 Default Start Position
 
 This is the default joint configuration in radians:
@@ -103,8 +91,6 @@ This is the default joint configuration in radians:
 ```
 
 Use `arm.set_start_position()` in code to return to this pose.
-
----
 
 ## 🧪 Programmatic Example
 
@@ -124,15 +110,11 @@ arm.set_relative_angles(np.array([0.1, 0, -0.2, 0, 0.1, 0]))
 arm.set_gripper(0.5)
 ```
 
----
-
 ## 📦 Dependencies
 
 - `piper_control` (Python package)  
 - `can-utils` (Linux CAN communication utilities)  
 - Python 3.7+
-
----
 
 ## 👨‍🔧 Troubleshooting
 
