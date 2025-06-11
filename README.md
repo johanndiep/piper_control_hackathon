@@ -37,13 +37,10 @@ This controller script provides the following functionality:
 
 ## 🛠 Usage
 
-### 1. Clone or copy the script
-Save the code from `PiperArmController` into a file, e.g. `piper_arm_controller.py`.
-
-### 2. Run the controller
+### Run the controller
 
 ```bash
-python3 piper_arm_controller.py
+python3 driver.py
 ```
 
 ## 🎮 Interactive Terminal Commands
